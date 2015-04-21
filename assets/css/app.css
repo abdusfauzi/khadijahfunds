@@ -31,15 +31,12 @@ body {
       left: 0;
       right: 0;
       z-index: 3;
-      background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
       /* FF3.6+ */
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.65)));
       /* Chrome,Safari4+ */
       background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
       /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
       /* Opera 11.10+ */
-      background: -ms-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
       /* IE10+ */
       background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
       /* W3C */
@@ -70,6 +67,15 @@ h1 {
       color: #fff; }
   #mc_embed_signup div.mce_inline_error {
     background: red; }
+  #mc_embed_signup .split {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    #mc_embed_signup .split input {
+      -webkit-flex-flow: row nowrap;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap; }
   #mc_embed_signup h2 {
     font-size: .8rem;
     margin-top: 0;
@@ -84,7 +90,8 @@ h1 {
   #mc_embed_signup input {
     margin: 0;
     font-size: 16px;
-    text-align: center; }
+    text-align: center;
+    border-radius: 3px; }
     #mc_embed_signup input.button {
       margin-bottom: 0;
       background-color: #ff004e; }
