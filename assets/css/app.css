@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  position: relative;
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: url("../images/bg.jpg") no-repeat center center;
+  background-size: cover; }
+
+.wrapper-table {
+  display: table;
+  max-width: 280px;
+  margin: 0 auto;
+  height: 100%; }
+  .wrapper-table .wrapper-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+    .wrapper-table .wrapper-cell:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 3;
+      background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.65)));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+      /* IE6-9 */
+      opacity: 1; }
+
+h1 {
+  z-index: 10;
+  position: relative;
+  text-align: center;
+  padding: 0 2rem;
+  margin-bottom: 1.4rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #fff; }
+
+#mc_embed_signup {
+  z-index: 10;
+  position: relative;
+  border-radius: 4px;
+  background-color: transparent; }
+  #mc_embed_signup .mc-field-group {
+    margin: 0 0 1rem;
+    width: 100%; }
+    #mc_embed_signup .mc-field-group strong {
+      text-transform: uppercase;
+      color: #fff; }
+  #mc_embed_signup div.mce_inline_error {
+    background: red; }
+  #mc_embed_signup h2 {
+    font-size: .8rem;
+    margin-top: 0;
+    font-weight: normal;
+    text-transform: uppercase; }
+  #mc_embed_signup form {
+    text-align: center;
+    padding: 1rem; }
+  #mc_embed_signup label {
+    text-shadow: 0 0 15px #000;
+    color: #fff; }
+  #mc_embed_signup input {
+    margin: 0;
+    font-size: 16px;
+    text-align: center; }
+    #mc_embed_signup input.button {
+      margin-bottom: 0;
+      background-color: #ff004e; }
+  #mc_embed_signup .role {
+    display: table;
+    margin: 0 auto !important; }
+    #mc_embed_signup .role li {
+      text-align: left;
+      display: table-cell !important;
+      font-size: 1rem;
+      padding: 0 5px !important; }
+      #mc_embed_signup .role li input {
+        margin-right: .5rem;
+        border: 1px solid #999; }
