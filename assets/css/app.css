@@ -67,6 +67,12 @@ h1 {
       color: #fff; }
   #mc_embed_signup div.mce_inline_error {
     background: red; }
+  #mc_embed_signup div.response {
+    width: 100%;
+    color: #fff;
+    font-weight: normal; }
+    #mc_embed_signup div.response a {
+      color: #fff; }
   #mc_embed_signup .split {
     display: -webkit-box;
     display: -webkit-flex;

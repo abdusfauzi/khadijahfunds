@@ -82,6 +82,16 @@ h1 {
         background: red;
     }
 
+    div.response {
+        width: 100%;
+        color: #fff;
+        font-weight: normal;
+
+        a {
+            color: #fff;
+        }
+    }
+
     .split {
         display: flex;
         //width: 100%;
