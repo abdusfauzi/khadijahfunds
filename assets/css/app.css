@@ -1,0 +1,46 @@
+html,
+body {
+  position: relative;
+  height: 100%; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: url("../images/bg.jpg") no-repeat center center;
+  background-size: cover; }
+
+.wrapper-table {
+  display: table;
+  max-width: 280px;
+  margin: 0 auto;
+  height: 100%; }
+  .wrapper-table .wrapper-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+
+h1 {
+  text-align: center;
+  padding: 0 2rem;
+  margin-bottom: .7rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #fff; }
+
+#mc_embed_signup {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0); }
+  #mc_embed_signup form {
+    text-align: center;
+    padding: 1rem; }
+  #mc_embed_signup label {
+    text-shadow: 0 0 15px #fff; }
+  #mc_embed_signup input {
+    width: 100% !important;
+    margin: 0;
+    font-size: 16px;
+    text-align: center; }
+    #mc_embed_signup input.button {
+      margin-bottom: 0;
+      background-color: #ff004e; }
