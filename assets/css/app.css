@@ -11,7 +11,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   padding: 0;
   margin: 0;
-  background: url("../images/bg.jpg") no-repeat center center;
+  background: url("../images/bg-river.jpg") no-repeat center center;
   background-size: cover; }
 
 .wrapper-table {
@@ -45,14 +45,19 @@ body {
       opacity: 1; }
 
 h1 {
+  color: #fff;
   z-index: 10;
   position: relative;
   text-align: center;
   padding: 0 2rem;
   margin-bottom: 1.4rem;
   font-size: 1.8rem;
-  text-transform: uppercase;
-  text-shadow: 0 0 15px #fff; }
+  text-transform: uppercase; }
+
+h3 {
+  color: #fff;
+  position: relative;
+  z-index: 10; }
 
 #mc_embed_signup {
   z-index: 10;
@@ -81,9 +86,11 @@ h1 {
     #mc_embed_signup .split input {
       -webkit-flex-flow: row nowrap;
           -ms-flex-flow: row nowrap;
-              flex-flow: row nowrap; }
+              flex-flow: row nowrap;
+      width: 50%; }
   #mc_embed_signup h2 {
     font-size: .8rem;
+    color: #bbb;
     margin-top: 0;
     font-weight: normal;
     text-transform: uppercase; }
